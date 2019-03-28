@@ -1,6 +1,6 @@
 package java.pt.compta.tools.fourthmaven;
 
-public class SumOfTwoNumbers {
+public abstract class SumOfTwoNumbers {
 	
 	public static int sumOfTwoNumbers(int firstNumber, int secondNumber) {
 		return firstNumber + secondNumber;
