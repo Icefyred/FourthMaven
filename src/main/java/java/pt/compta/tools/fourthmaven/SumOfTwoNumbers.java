@@ -5,6 +5,9 @@ public abstract class SumOfTwoNumbers {
 	public static int sumOfTwoNumbers(int firstNumber, int secondNumber) {
 		return firstNumber + secondNumber;
 	}
+	public static int subtractOfTwoNumbers(int firstNumber, int secondNumber) {
+		return firstNumber - secondNumber;
+	}
 }
 	/*
 	 *An utility class is one which:
