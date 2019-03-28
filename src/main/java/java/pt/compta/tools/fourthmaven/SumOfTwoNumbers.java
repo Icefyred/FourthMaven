@@ -9,7 +9,7 @@ public class SumOfTwoNumbers {
 	}
 }
 	/*
-	 *A utility class is one which:
+	 *An utility class is one which:
 	 *Has no state (fields) of its own, so all the methods can be class methods (static)
 	 *rather than object methods (requiring an instantiation of an object).
 	 *Provides methods for multiple other classes (shared code)
