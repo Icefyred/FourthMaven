@@ -1,6 +1,6 @@
 package java.pt.compta.tools.fourthmaven;
 
-public abstract class AddOrSubtractTwoNumbers {
+public abstract class TestPhase {
 	
 	public static int sumOfTwoNumbers(int firstNumber, int secondNumber) {
 		return firstNumber + secondNumber;
