@@ -1,6 +1,6 @@
 package pt.compta.tools.fourthmaven;
 
-public abstract class PerformTheFourBasicOperationWithTwoNumbersUtilityClass {
+public abstract class MathUtils {
 
 	public static int sumOfTwoNumbers(int firstNumber, int secondNumber) {
 		return firstNumber + secondNumber;
