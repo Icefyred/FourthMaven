@@ -9,6 +9,12 @@ import static junit.framework.TestCase.assertEquals;
 public class MathUtilsTest {
 
 	@Test
+	public void testSumOfTwoNumbers() {
+
+		assertEquals("Here is test for Addition Result: ", 30, MathUtils.sumOfTwoNumbers(27, 3));
+	}
+
+	@Test
 	public void testSubtractOfTwoNumbers() {
 
 		assertEquals("Here is test for Subtraction Result: ", 11, MathUtils.sumOfTwoNumbers(8, 3));
