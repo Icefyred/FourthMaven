@@ -1,4 +1,4 @@
-package java.pt.compta.tools.fourthmaven;
+package pt.compta.tools.fourthmaven;
 
 public abstract class PerformTheFourBasicOperationWithTwoNumbersUtilityClass {
 

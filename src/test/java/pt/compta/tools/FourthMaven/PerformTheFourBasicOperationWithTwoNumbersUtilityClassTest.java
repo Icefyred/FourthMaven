@@ -1,33 +1,18 @@
-package pt.compta.tools.FourthMaven;
+package pt.compta.tools.fourthmaven;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
-public class PerformTheFourBasicOperationWithTwoNumbersUtilityClassTest extends TestCase {
-	/**
-	 * Create the test case
-	 *
-	 * @param testName name of the test case
-	 */
-	public PerformTheFourBasicOperationWithTwoNumbersUtilityClassTest(String testName) {
-		super(testName);
+import pt.compta.tools.fourthmaven.PerformTheFourBasicOperationWithTwoNumbersUtilityClass;
+
+import static junit.framework.TestCase.assertEquals;
+
+public class PerformTheFourBasicOperationWithTwoNumbersUtilityClassTest {
+
+	@Test
+	public void testSumOfTwoNumbers() {
+
+		assertEquals("Here is test for Addition Result: ", 30,
+				PerformTheFourBasicOperationWithTwoNumbersUtilityClass.sumOfTwoNumbers(27, 3));
 	}
 
-	/**
-	 * @return the suite of tests being tested
-	 */
-	public static Test suite() {
-		return new TestSuite(PerformTheFourBasicOperationWithTwoNumbersUtilityClassTest.class);
-	}
-
-	/**
-	 * Rigourous Test :-)
-	 */
-	public void testApp() {
-		assertTrue(true);
-	}
 }
